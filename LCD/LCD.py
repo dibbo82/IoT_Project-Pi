@@ -75,22 +75,22 @@ class Adafruit_CharLCD:
 
     self.displaycontrol = self.LCD_DISPLAYON | self.LCD_CURSOROFF | self.LCD_BLINKOFF
 
-	self.displayfunction = self.LCD_4BITMODE | self.LCD_1LINE | self.LCD_5x8DOTS
-	self.displayfunction |= self.LCD_2LINE
+    self.displayfunction = self.LCD_4BITMODE | self.LCD_1LINE | self.LCD_5x8DOTS
+    self.displayfunction |= self.LCD_2LINE
 
-	""" Initialize to default text direction (for romance languages) """
-	self.displaymode =  self.LCD_ENTRYLEFT | self.LCD_ENTRYSHIFTDECREMENT
-	self.write4bits(self.LCD_ENTRYMODESET | self.displaymode) #  set the entry mode
+    """ Initialize to default text direction (for romance languages) """
+    self.displaymode =  self.LCD_ENTRYLEFT | self.LCD_ENTRYSHIFTDECREMENT
+    self.write4bits(self.LCD_ENTRYMODESET | self.displaymode) #  set the entry mode
 
-        self.clear()
+    self.clear()
 
 
     def begin(self, cols, lines):
 
-	if (lines > 1):
-		self.numlines = lines
-    		self.displayfunction |= self.LCD_2LINE
-		self.currline = 0
+     if (lines > 1):
+      self.numlines = lines
+      self.displayfunction |= self.LCD_2LINE
+      self.currline = 0
 
 
     def home(self):
