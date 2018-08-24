@@ -65,7 +65,7 @@ class Adafruit_CharLCD:
     self.GPIO.setup(self.pin_rs, GPIO.OUT)
 
     for pin in self.pins_db:
-    self.GPIO.setup(pin, GPIO.OUT)
+     self.GPIO.setup(pin, GPIO.OUT)
 
     self.write4bits(0x33) # initialization
     self.write4bits(0x32) # initialization
