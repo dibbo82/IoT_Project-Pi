@@ -18,4 +18,10 @@
 17. Photo resistor - Completed
 18. Termistor - Not yet completed problem with ADC0823 but log program added
 19. RFID - still errors with MFRC522.py
+20. LED Bar - work in progress
+21. TCP Control LED - not yet started
 22. Motor - completed
+23. Stepper Motor - not yet started
+24. ADXL345 - not yet started
+25. Joystick - not yet started
+26. Access Control system - not yet started
