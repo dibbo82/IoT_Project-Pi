@@ -31,7 +31,7 @@ def loop():
 	while True:
 		tmp = getResult()
 		if tmp != None:
-			print state[tmp - 1]
+			print (state[tmp - 1])
 
 def destory():
 	GPIO.cleanup()				# Release resource
