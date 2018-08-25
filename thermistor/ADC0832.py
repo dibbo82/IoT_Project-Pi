@@ -34,10 +34,10 @@ def setup(cs=ADC_CS,clk=ADC_CLK,dio=ADC_DIO):
         ADC_CS=cs
         ADC_CLK=clk
         ADC_DIO=dio
-	GPIO.setwarnings(False)
-	GPIO.setmode(GPIO.BOARD)    		# Number GPIOs by its physical location
-	GPIO.setup(ADC_CS, GPIO.OUT)		# Set pins' mode is output
-	GPIO.setup(ADC_CLK, GPIO.OUT)		# Set pins' mode is output
+        GPIO.setwarnings(False)
+        GPIO.setmode(GPIO.BOARD)    		# Number GPIOs by its physical location
+        GPIO.setup(ADC_CS, GPIO.OUT)		# Set pins' mode is output
+        GPIO.setup(ADC_CLK, GPIO.OUT)		# Set pins' mode is output
 
 def destroy():
 	GPIO.cleanup()
@@ -90,12 +90,12 @@ def getResult1():
 
 def loop():
 	while True:
-                res0 = getResult(0)
-		res1 = getResult(1)
-		print 'res0 = %d, res1 = %d' % (res0,res1)
-		time.sleep(0.4)
+         res0 = getResult(0)
+	res1 = getResult(1)
+	print ('res0 = %d, res1 = %d') % (res0,res1)
+time.sleep(0.4)
 
-if __name__ == '__main__':		# Program start from here
+if __name__ == ('__main__'):		# Program start from here
 	setup()
 	try:
 		loop()
