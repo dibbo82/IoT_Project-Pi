@@ -17,4 +17,5 @@
 16. LED Matrix - Completed
 17. Photo resistor - Completed
 18. Termistor - Not yet completed problem with ADC0823 but log program added
-19. Motor - completed
+19. RFID - still errors with MFRC522.py
+22. Motor - completed
