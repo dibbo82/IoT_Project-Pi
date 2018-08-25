@@ -11,3 +11,8 @@
 10. Segment - Completed
 11. Four Bit Segment - Completed
 12. LCD 1602 - Completed
+13.Matrix Key board - Completed
+14. Distance - Completed
+15. DHT11 - Completed
+16. LED Matrix - Completed
+17. Photo resistor - Completed
