@@ -25,8 +25,8 @@ data = [
 		]
 
 def print_msg():
-	print 'Program is running...'
-	print 'Press Ctrl+C to end the program...'
+	print ('Program is running...')
+	print ('Press Ctrl+C to end the program...')
 
 def setup():
 	GPIO.setwarnings(False)
@@ -61,7 +61,7 @@ def loop():
 def destroy():   # When program ending, the function is executed. 
 	GPIO.cleanup()
 
-if __name__ == '__main__':   # Program starting from here 
+if __name__ == ('__main__'):   # Program starting from here 
 	print_msg()
 	setup() 
 	try:
