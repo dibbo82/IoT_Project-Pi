@@ -23,5 +23,5 @@
 22. Motor - completed
 23. Stepper Motor - not yet started
 24. ADXL345 - not yet started
-25. Joystick - not yet started
+25. Joystick - Completed
 26. Access Control system - not yet started
