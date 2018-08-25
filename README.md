@@ -16,7 +16,7 @@
 15. DHT11 - Completed
 16. LED Matrix - Completed
 17. Photo resistor - Completed
-18. Termistor - Not yet completed problem with ADC0823 but log program added
+18. Termistor - loop still not working
 19. RFID - still errors with MFRC522.py
 20. LED Bar - work in progress
 21. TCP Control LED - not yet started
