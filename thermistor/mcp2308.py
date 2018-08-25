@@ -36,7 +36,7 @@ class index:
         adc = int(command)
         return render.index(round(temp_get(adc),1))
 
-if __name__ == "__main__":
+if __name__ == ("__main__"):
         app.run()
 
 #thermistor reading function
