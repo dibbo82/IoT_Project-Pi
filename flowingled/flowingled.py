@@ -2,7 +2,7 @@
 import RPi.GPIO as GPIO
 import time
 
-pins = [11, 12, 13, 15, 16]
+pins = [37, 40]
 
 def setup():
         GPIO.setmode(GPIO.BOARD)        # Numbers GPIOs by physical location
@@ -14,7 +14,7 @@ def loop():
         while True:
                 for pin in pins:
                         GPIO.output(pin, GPIO.LOW)
-                        time.sleep(0.5)
+                        time.sleep(0.3)
                         GPIO.output(pin, GPIO.HIGH)
                 for pin in reversed(pins):
                         GPIO.output(pin, GPIO.LOW)

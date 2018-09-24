@@ -2,7 +2,8 @@
 import RPi.GPIO as GPIO
 import time
 
-LedPin = 40    # pin40 
+
+LedPin = 37   # pin26 
 
 def setup():
         GPIO.setmode(GPIO.BOARD)       # Set the board mode to numbers pins by physical location
@@ -17,6 +18,7 @@ def loop():
                 print ('led off')
                 GPIO.output(LedPin, GPIO.HIGH)  # led off
                 time.sleep(1.0)                 # wait 1 sec
+            
 def destroy():
 
         GPIO.output(LedPin, GPIO.HIGH)     # led off
